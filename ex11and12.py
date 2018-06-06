@@ -15,5 +15,5 @@ height = input("How tall are you?")
 weight = input("How much do you weigh?")
 print(f"So, you're {age} years old, {height} tall and {weight}lbs heavy.")
 #This form is called prompting, and is easier to type.
-print(input("How many eggs do you have?"), "I have 14. Together we have", 14*input())
-#This line does not work that well. 
+print(input("How many eggs do you have?"), "I have 14. Together we have", 14*int(input()))
+ 
